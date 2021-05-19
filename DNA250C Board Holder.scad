@@ -18,13 +18,13 @@ translate([10,-34.5,-2])
 fillet_mask(l=100, r=2.5, orient=ORIENT_Z, align=V_UP);
 translate([0,27.5,0])
 cylinder(h=5, d=11, center=true);
-translate([7.5,29.5,0.5])
+translate([7.5,29,0.5])
 cylinder(h=5, d=1.75, center=true);
-translate([7.5,29.5,0.5])
+translate([7.5,29,0.5])
 cylinder(h=2, d=3.5, center=true);
-translate([-7.5,29.5,0.5])
+translate([-7.5,29,0.5])
 cylinder(h=2, d=3.5, center=true);
-translate([-7.5,29.5,-1])
+translate([-7.5,29,-1])
 cylinder(h=6, d=1.75, center=true);
 translate([7.5,-25,0.5])
 cylinder(h=2, d=3.5, center=true);
@@ -50,9 +50,9 @@ cube([8.8,3.55,5], center=true);
 };
 
 module standoffs(){
-translate([7.5,29.5,-2.25])
+translate([7.5,29,-2.25])
 cylinder(h=2, d=4.75, center=true);
-translate([-7.5,29.5,-2.25])
+translate([-7.5,29,-2.25])
 cylinder(h=2, d=4.75, center=true);
 translate([7.5,-25,-2.25])
 cylinder(h=2, d=4.75, center=true);
@@ -62,9 +62,9 @@ difference(){
 standoffs();
 translate([0,27.5,0])
 cylinder(h=10, d=11, center=true);
-translate([7.5,29.5,-1])
+translate([7.5,29,-1])
 cylinder(h=6, d=1.75, center=true);
-translate([-7.5,29.5,-1])
+translate([-7.5,29,-1])
 cylinder(h=6, d=1.75, center=true);
 translate([7.5,-25,-1])
 cylinder(h=6, d=1.75, center=true);
