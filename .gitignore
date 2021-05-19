@@ -1,0 +1,5 @@
+.history/
+!workspace.code-workspace
+*.code-workspace
+.DS_Store
+
