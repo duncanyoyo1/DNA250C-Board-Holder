@@ -5,7 +5,8 @@ This repository will contain the OpenSCAD files as well as STL/AMF exports of th
 
 You may need to place the BOSL folder in your OpenSCAD library folder.
 
-- [The Main Body](DNA250C_Board_Holder.stl)
+- [The Main Body STL](DNA250C_Board_Holder.stl)
+- [The Main Body AMF](DNA250C_Board_Holder.amf)
 
 ![Image1](img/image1.png)
 ![Image2](img/image2.png)
