@@ -40,8 +40,8 @@ translate([0,-20,-2])
 cube([8.8,24,2.25], center=true);
 translate([0,17.5,0])
 cube([12,7.85,5], center=true);
-translate([0,16.75,0])
-cube([15.85,6.5,5], center=true);
+translate([0,16.25,0])
+cube([15.85,7,5], center=true);
 translate([0,6.15,1])
 cube([15.85,27.5,3.25], center=true);
 translate([0,-30.25,0])
