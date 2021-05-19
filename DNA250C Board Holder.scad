@@ -18,18 +18,18 @@ translate([10,-34.5,-2])
 fillet_mask(l=100, r=2.5, orient=ORIENT_Z, align=V_UP);
 translate([0,27.5,0])
 cylinder(h=5, d=11, center=true);
-translate([7.5,29.75,0.5])
-cylinder(h=5, d=1.5, center=true);
-translate([7.5,29.75,0.5])
+translate([7.5,29.5,0.5])
+cylinder(h=5, d=1.75, center=true);
+translate([7.5,29.5,0.5])
 cylinder(h=2, d=3.5, center=true);
-translate([-7.5,29.75,0.5])
+translate([-7.5,29.5,0.5])
 cylinder(h=2, d=3.5, center=true);
-translate([-7.5,29.75,-1])
-cylinder(h=6, d=1.5, center=true);
+translate([-7.5,29.5,-1])
+cylinder(h=6, d=1.75, center=true);
 translate([7.5,-25,0.5])
 cylinder(h=2, d=3.5, center=true);
 translate([7.5,-25,-1])
-cylinder(h=6, d=1.5, center=true);
+cylinder(h=6, d=1.75, center=true);
 translate([0,-12,0])
 cylinder(h=5, d=5.8, center=true);
 translate([0,-18.5,0])
@@ -43,16 +43,16 @@ cube([12,7.85,5], center=true);
 translate([0,16.75,0])
 cube([15.85,6.5,5], center=true);
 translate([0,6.15,1])
-cube([15.85,27.5,3], center=true);
+cube([15.85,27.5,3.25], center=true);
 translate([0,-30.25,0])
 cube([8.8,3.55,5], center=true);
 };
 };
 
 module standoffs(){
-translate([7.5,29.75,-2.25])
+translate([7.5,29.5,-2.25])
 cylinder(h=2, d=4.75, center=true);
-translate([-7.5,29.75,-2.25])
+translate([-7.5,29.5,-2.25])
 cylinder(h=2, d=4.75, center=true);
 translate([7.5,-25,-2.25])
 cylinder(h=2, d=4.75, center=true);
@@ -60,11 +60,13 @@ cylinder(h=2, d=4.75, center=true);
 
 difference(){
 standoffs();
-translate([7.5,29.75,-1])
-cylinder(h=6, d=1.5, center=true);
-translate([-7.5,29.75,-1])
-cylinder(h=6, d=1.5, center=true);
-translate([7.5,-26,-1])
-cylinder(h=6, d=1.5, center=true);
+translate([0,27.5,0])
+cylinder(h=10, d=11, center=true);
+translate([7.5,29.5,-1])
+cylinder(h=6, d=1.75, center=true);
+translate([-7.5,29.5,-1])
+cylinder(h=6, d=1.75, center=true);
+translate([7.5,-25,-1])
+cylinder(h=6, d=1.75, center=true);
 }
 mainbody();
