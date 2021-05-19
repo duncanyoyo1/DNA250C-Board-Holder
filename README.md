@@ -3,6 +3,7 @@
 
 This repository will contain the OpenSCAD files as well as STL/AMF exports of the parts needed to print the part yourself.
 
+You may need to place the BOSL folder in your OpenSCAD library folder.
 
 - [The Main Body](DNA250C_Board_Holder.stl)
 
