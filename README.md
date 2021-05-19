@@ -7,5 +7,6 @@ This repository will contain the OpenSCAD files as well as STL/AMF exports of th
 - [The Main Body](DNA250C_Board_Holder.stl)
 
 ![Image1](img/image1.png)
+![Image2](img/image2.png)
 
 # A 3D Board Holder for the DNA250C chipset from [Evolv](https://evolvapor.com)
