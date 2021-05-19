@@ -4,6 +4,7 @@ use <BOSL/transforms.scad>
 
 $fa = 0.1; // Set these to 1 for faster preview.
 $fs = 0.1; // ----------------------------------
+
 module mainbody(){
 difference(){
 cube([20,69,2.9], center=true);
@@ -25,15 +26,15 @@ translate([-7.5,29.75,0.5])
 cylinder(h=2, d=3.5, center=true);
 translate([-7.5,29.75,-1])
 cylinder(h=6, d=1.5, center=true);
-translate([7.5,-24,0.5])
+translate([7.5,-25,0.5])
 cylinder(h=2, d=3.5, center=true);
-translate([7.5,-24,-1])
+translate([7.5,-25,-1])
 cylinder(h=6, d=1.5, center=true);
-translate([0,-11.75,0])
+translate([0,-12,0])
 cylinder(h=5, d=5.8, center=true);
-translate([0,-18.25,0])
+translate([0,-18.5,0])
 cylinder(h=5, d=5.8, center=true);
-translate([0,-24.75,0])
+translate([0,-25,0])
 cylinder(h=5, d=5.8, center=true);
 translate([0,-20,-2])
 cube([8.8,24,2.25], center=true);
@@ -53,7 +54,7 @@ translate([7.5,29.75,-2.25])
 cylinder(h=2, d=4.75, center=true);
 translate([-7.5,29.75,-2.25])
 cylinder(h=2, d=4.75, center=true);
-translate([7.5,-24,-2.25])
+translate([7.5,-25,-2.25])
 cylinder(h=2, d=4.75, center=true);
 };
 
@@ -63,7 +64,7 @@ translate([7.5,29.75,-1])
 cylinder(h=6, d=1.5, center=true);
 translate([-7.5,29.75,-1])
 cylinder(h=6, d=1.5, center=true);
-translate([7.5,-24,-1])
+translate([7.5,-26,-1])
 cylinder(h=6, d=1.5, center=true);
 }
 mainbody();
